@@ -28,7 +28,7 @@
 
 .hamburger-menu-logo {
   height: 24px;
-  margin-left: 22px;
+  margin-left: 20px;
   margin-right: 16px;
   cursor: pointer;
   padding:9px;
@@ -49,7 +49,7 @@
   max-width: 600px;
   margin-left: 70px;
   margin-right: 35px;
-  transition: margin-left 0.2s, max-width 0.2s;
+  transition: margin-left 0.15s, max-width 0.15s;
 }
 
 .search-container {
@@ -85,7 +85,7 @@
   width: 0;
   opacity: 0;
   overflow: hidden;
-  transition: width 0.2s, opacity 0.2s;
+  transition: width 0.15s, opacity 0.15s;
 }
 
 .search-bar-icon img {

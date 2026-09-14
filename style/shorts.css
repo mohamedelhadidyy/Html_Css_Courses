@@ -3,7 +3,6 @@
   grid-template-columns: repeat(7, minmax(140px, 1fr));
   row-gap: 0px;
   column-gap: 20px;
-  background-color: rgb(249, 249, 249);
   padding-bottom: 40px;
   box-sizing: border-box;
   overflow-x: auto;
@@ -54,10 +53,24 @@
   position: relative;
 
 }
-.shorts-burger-menu{
-  position: absolute;
-  top:-10px;
-  right:-18px;
+.shorts-burger-menu {
+  position: relative;
+  cursor: pointer;
+  padding: 8px;
+  width: 24px;
+  height: 24px;
+  top: 0px;
+  right: 9px;
+  transition: opacity 0.15s;
+  right: 0;
+}
+.shorts-burger-menu:hover {
+  background-color: rgb(218, 203, 203);
+  border-radius: 50%;
+}
+
+.shorts-burger-menu:active {
+  opacity: 0.8;
 }
 
 
