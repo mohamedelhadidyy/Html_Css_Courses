@@ -15,6 +15,7 @@
   aspect-ratio: 9 / 16;
   object-fit: cover;
   border-radius: 9px;
+  cursor: pointer;
 }
 
 .shorts-thumbnail-row {

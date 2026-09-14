@@ -28,8 +28,14 @@
 
 .hamburger-menu-logo {
   height: 24px;
-  margin-left: 31px;
-  margin-right: 24px;
+  margin-left: 22px;
+  margin-right: 16px;
+  cursor: pointer;
+  padding:9px;
+}
+.hamburger-menu-logo:hover{
+  background-color: rgb(216, 213, 213);
+  border-radius: 50%;
 }
 
 .youtube-logo {
@@ -148,9 +154,11 @@
 .notification-icon,
 .youtube-apps-icon {
   height: 24px;
+  cursor: pointer;
 }
 
 .my-channel-picture {
   height: 30px;
   border-radius: 50%;
+  cursor: pointer;
 }
