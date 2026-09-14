@@ -1,0 +1,45 @@
+.shorts-header{
+  height: 40px;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  position: relative;
+  padding-bottom: 10px;
+  background-color: rgb(249, 249, 249);
+}
+.shorts-icon{
+  position:absolute;
+  left:0;
+  display: flex;
+  align-items: center;
+  bottom:0;
+  left: 20px;
+  
+}
+.shorts-burger-menu{
+  position: relative;
+  cursor: pointer;
+  padding:8px;
+  width: 24px;
+  height: 24px;
+  cursor: pointer;
+  transition: opacity 0.15s;
+  /* border: 1px solid red; */
+  }
+  .shorts-burger-menu-logo{
+    position: absolute;
+    bottom:-22px;
+    left:-13px;
+  }
+.shorts-burger-menu:hover{
+  background-color: rgb(218, 203, 203);
+  border-radius: 50%;
+}
+.shorts-burger-menu:active{
+  opacity: 0.8;
+}
+.shorts-name{
+  font-size: 18px;
+  font-weight: 500;
+  padding-left: 4px;
+}

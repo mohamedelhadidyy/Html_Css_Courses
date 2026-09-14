@@ -1,0 +1,12 @@
+body , .vide-grid{
+  font-family: Roboto, Arial;
+  padding-top: 55px;
+  padding-left: 79px;
+  margin: 0;
+  background-color: rgb(249, 249, 249);
+  padding-bottom:100px;
+} 
+
+p {
+  margin: 0;
+}

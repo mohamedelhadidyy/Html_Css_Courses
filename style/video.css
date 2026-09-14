@@ -1,0 +1,82 @@
+.thumbnail{
+  width:100%;
+  border-radius: 9px;
+}
+.video-title {
+  font-size: 14px;
+  font-weight: 500;
+  line-height: 20px;
+  margin-bottom: 4px;
+}
+.video-info-grid {
+  display: grid;
+  grid-template-columns: 50px 1fr;
+  padding-left: 4px;
+}
+.profile-picture {
+  width: 36px;
+  border-radius: 50%;
+}
+.thumbnail-row {
+  margin-bottom: 8px;
+  position: relative;
+}
+.video-author,
+.video-stats {
+  font-size: 12px;
+  color: rgb(96, 96, 96);
+}
+
+.video-stats{
+  margin-top: 3px;
+}
+.video-grid{
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  column-gap: 16px;
+  row-gap: 40px;
+  padding: 20px;
+  padding-bottom:0;
+}
+@media (max-width:720px){
+  .video-grid {
+    grid-template-columns: repeat(2,1fr);
+  }
+}
+.video-info{
+  position: relative;
+}
+.burger-menu{
+  position:absolute;
+  top:-10px;
+  right:-16px;
+}
+
+.burger-menu {
+  width: 24px;
+  height: 24px;
+  cursor: pointer;
+  padding: 8px;
+  transition: opacity 0.15s;
+  flex-shrink: 0;
+}
+
+.burger-menu:hover {
+  background-color: rgb(218, 203, 203);
+  border-radius: 50%;
+}
+
+.burger-menu:active {
+  opacity: 0.6;
+}
+.video-time{
+  position:absolute;
+  background-color:black;
+  color:white;
+  bottom:12px;
+  right:6px;
+  border-radius: 4px;
+  font-size:10px;
+  font-weight: 500;
+  padding:4px;
+}
