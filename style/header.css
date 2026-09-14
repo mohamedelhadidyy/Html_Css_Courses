@@ -107,6 +107,7 @@
   outline: none;
   font-size: 16px;
   box-sizing: border-box;
+  cursor: pointer;
 }
 
 .search-input::placeholder {
@@ -134,7 +135,8 @@
   border: none;
   border-radius: 50%;
   background-color: rgb(248, 248, 248);
-}
+  cursor: pointer;
+} 
 
 .voice-icon {
   height: 24px;
